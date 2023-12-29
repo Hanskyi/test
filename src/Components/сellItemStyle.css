@@ -1,0 +1,31 @@
+.сell-item {
+    width: 15px;
+    height: 15px;
+    background-color: #EDEDED;
+}
+
+ .сell-item:hover {
+     border: 1px solid rgba(0, 0, 0, 0.50);
+ }
+
+ .сell-item.selected {
+     background-color: #527BA0;
+     border: 1px solid rgba(0, 0, 0, 0.90);
+ }
+
+.one-to-nine-contributions {
+    background-color: #ACD5F2;
+}
+
+.ten-to-nineteen-contributions{
+    background-color: #7FA8C9;
+}
+
+.twenty-to-twenty-nine-contributions{
+    background-color: #527BA0;
+
+}
+
+.thirty-plus-contributions{
+    background-color: #254E77;
+}

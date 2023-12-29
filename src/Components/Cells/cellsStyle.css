@@ -1,0 +1,18 @@
+.cells {
+    height: 117px;
+    width: 899px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-left: 30px;
+}
+
+.month-wrapper {
+    margin: 0 0 0 80px;
+}
+
+.week-wrapper {
+    margin: 20px 0 0 0;
+    display: flex;
+}

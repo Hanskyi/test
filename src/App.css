@@ -12,3 +12,7 @@ p {
   margin: 200px auto;
   width: 1000px;
 }
+
+.сell-item {
+  position: relative;
+}

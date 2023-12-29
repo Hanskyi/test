@@ -1,0 +1,35 @@
+
+.pop-up-content {
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pop-up-content::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid black;
+    transform: translateX(-50%);
+}
+
+.pop-up-window-main-text {
+    display: block;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.pop-up-window-sub-text {
+    color: grey;
+}

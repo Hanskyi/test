@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import CellItem from "../CellItem/СellItem";
 import './cellsStyle.css';
-import Month from "../Month/Month";
+import Months from "../Months/Months";
 import DaysOfTheWeek from "../DaysOfTheWeek/DaysOfTheWeek";
 import axiosApi from "../../axiosApi";
 import {ArrData, Data} from "../../types";
@@ -45,7 +45,7 @@ const Cells = () => {
     return (
         <div>
             <div className="month-wrapper">
-                <Month/>
+                <Months/>
             </div>
             <div className="week-wrapper">
                 <DaysOfTheWeek/>

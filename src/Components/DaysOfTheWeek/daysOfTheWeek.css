@@ -4,6 +4,7 @@
     justify-content: space-between;
     height: 81px;
     width: 17px;
+    gap: 4px;
 }
 
 .days-of-the-week {

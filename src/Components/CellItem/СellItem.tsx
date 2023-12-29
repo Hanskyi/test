@@ -3,9 +3,7 @@ import './сellItemStyle.css';
 
 const EllItem = () => {
     return (
-        <div className="сell-item">
-            
-        </div>
+        <div className="сell-item"></div>
     );
 };
 

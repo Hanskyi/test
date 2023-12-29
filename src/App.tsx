@@ -3,6 +3,7 @@ import './App.css';
 import EllItem from "./Components/CellItem/СellItem";
 import Month from "./Components/Month/Month";
 import DaysOfTheWeek from "./Components/DaysOfTheWeek/DaysOfTheWeek";
+import ColorNav from "./Components/ColorNav/ColorNav";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <EllItem/>
         <Month/>
         <DaysOfTheWeek/>
+      <ColorNav/>
     </div>
   );
 }

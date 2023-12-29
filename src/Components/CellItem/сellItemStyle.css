@@ -20,17 +20,17 @@
 }
 
 .one-to-nine-contributions {
-    background-color: #ACD5F2;
+    background-color: #ACD5F2 !important;
 }
 
 .ten-to-nineteen-contributions {
-    background-color: #7FA8C9;
+    background-color: #7FA8C9 !important;
 }
 
 .twenty-to-twenty-nine-contributions {
-    background-color: #527BA0;
+    background-color: #527BA0 !important;
 }
 
 .thirty-plus-contributions {
-    background-color: #254E77;
+    background-color: #254E77 !important;
 }

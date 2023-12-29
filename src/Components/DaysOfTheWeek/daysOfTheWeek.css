@@ -1,0 +1,16 @@
+.days-of-the-week-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 81px;
+    width: 17px;
+}
+
+.days-of-the-week {
+    color: #959494;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
